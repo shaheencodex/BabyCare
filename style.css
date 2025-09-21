@@ -1,0 +1,202 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Top */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: palevioletred; /* purple */
+  color: #4a4a4a;
+  padding: 10px 50px;
+  font-size: 14px;
+  position: relative;
+}
+
+.header-top .header-left span {
+  margin: 0 10px;
+}
+
+.header-top .header-right .icon i {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Optional: change icon background color to light green */
+.header-top .header-right {
+  background-color: #cff4df;
+  position: absolute;
+  top: 0px;
+  right: 250px;
+  padding: 15px;
+}
+
+/* Header Bottom */
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cff4df; /* same purple */
+  padding: 15px 50px;
+}
+
+.header-bottom .logo h1 {
+  color: #4a4a4a;
+}
+
+.header-bottom .pages a {
+  color: #4a4a4a;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-bottom .pages a:hover {
+  color: palevioletred;
+}
+
+.header-bottom .booking button {
+  background-color: palevioletred;
+  color: #4a4a4a;
+  padding: 15px;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 0px 20px;
+  border: none;
+  margin-right: 220px;
+}
+.header-bottom .booking button:hover {
+  background-color: white;
+  color: palevioletred;
+}
+/* SECTION-1 */
+.section-1 {
+  height: 100vh;
+  background-image: url("image/mom.jpg");
+  background-size: cover;
+}
+.section-1-content {
+  float: right;
+  align-content: center;
+  height: 100vh;
+  padding-right: 100px;
+}
+.section-1-content h1 {
+  color: rgb(156, 64, 95);
+}
+.section-1-content h2 {
+  margin-bottom: 10px;
+  color: palevioletred;
+}
+.section-1-content p {
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+  height: 120vh;
+  background-color: whitesmoke;
+}
+.section-2-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  height: 60vh;
+}
+.card {
+  width: 400px;
+  padding: 30px;
+  border-radius: 0px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: palevioletred;
+}
+
+.card-title {
+  padding: 10px;
+  color: rgb(55, 55, 55);
+}
+.card-text {
+  padding: 10px;
+  line-height: 1.2;
+  color: rgb(55, 55, 55);
+}
+.card:hover {
+  transform: scale(1.05); /* Slightly zooms the card */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Optional: stronger shadow on hover */
+  background-color: #cff4df;
+}
+.card-title:hover {
+  color: palevioletred;
+}
+.card-text:hover {
+  color: palevioletred;
+}
+
+/* SECTION-2 IMAGE */
+.section-2-left {
+  float: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-2-left img {
+  width: 50%;
+  padding: 10px;
+  border-radius: 50%;
+}
+.section-2-right {
+  float: right;
+  width: 50%;
+  padding: 30px;
+  border-radius: 0 30px;
+  margin: auto;
+  background-color: #cff4df;
+}
+.section-2-right .card-2 {
+  width: 300px;
+  padding: 20px;
+  border-radius: 0px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: palevioletred;
+  margin-top: 20px;
+  text-align: center;
+}
+.section-2-right h1 {
+  color: palevioletred;
+}
+.section-2-right p {
+  line-height: 1.8;
+}
+
+.section-2-right button {
+  background-color: palevioletred;
+  color: #4a4a4a;
+  padding: 15px;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 0px 20px;
+  border: none;
+  margin-top: 10px;
+}
+.section-2-right button:hover {
+  background-color: white;
+  color: palevioletred;
+}
