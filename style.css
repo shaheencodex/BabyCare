@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: palevioletred; /* purple */
-  color: #4a4a4a;
+  color: white;
   padding: 10px 50px;
   font-size: 14px;
   position: relative;
@@ -28,6 +28,7 @@ body {
 .header-top .header-right .icon i {
   margin-left: 15px;
   cursor: pointer;
+  color: palevioletred;
 }
 
 /* Optional: change icon background color to light green */
@@ -91,14 +92,16 @@ body {
 }
 .section-1-content h1 {
   color: rgb(156, 64, 95);
+  font-size: 40px;
 }
 .section-1-content h2 {
   margin-bottom: 10px;
   color: palevioletred;
+  font-size: 50px;
 }
 .section-1-content p {
   line-height: 1.8;
-  color: #4a4a4a;
+  color: black;
 }
 
 /* SECTION-2 */
@@ -127,23 +130,17 @@ body {
 
 .card-title {
   padding: 10px;
-  color: rgb(55, 55, 55);
+  color: white;
 }
 .card-text {
   padding: 10px;
   line-height: 1.2;
-  color: rgb(55, 55, 55);
+  color: white;
 }
 .card:hover {
   transform: scale(1.05); /* Slightly zooms the card */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Optional: stronger shadow on hover */
   background-color: #cff4df;
-}
-.card-title:hover {
-  color: palevioletred;
-}
-.card-text:hover {
-  color: palevioletred;
 }
 
 /* SECTION-2 IMAGE */
@@ -172,13 +169,14 @@ body {
   padding: 20px;
   border-radius: 0px 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: #fff;
+  color: #fff;
   font-family: Arial, sans-serif;
   transition: transform 0.3s, box-shadow 0.3s;
   background-color: palevioletred;
   margin-top: 20px;
   text-align: center;
 }
+
 .section-2-right h1 {
   color: palevioletred;
 }
@@ -188,7 +186,7 @@ body {
 
 .section-2-right button {
   background-color: palevioletred;
-  color: #4a4a4a;
+  color: white;
   padding: 15px;
   font-size: medium;
   font-weight: 700;
@@ -199,4 +197,22 @@ body {
 .section-2-right button:hover {
   background-color: white;
   color: palevioletred;
+}
+
+/* SECTION-3 */
+
+.section-3 {
+  height: 30vh;
+  background-color: palevioletred;
+  color: white;
+}
+.section-3-counter {
+  display: flex;
+  justify-content: space-around; /* even spacing */
+  align-items: center; /* vertical center */
+  padding: 70px 20px;
+}
+
+.increment {
+  text-align: center;
 }
