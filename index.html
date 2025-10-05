@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
+
     <title>Baby Care</title>
     <link
       rel="stylesheet"
@@ -37,12 +38,14 @@
         </div>
         <div class="header-bottom">
           <div class="logo">
-            <h1>
-              <span style="color: palevioletred">B</span>aby<span
-                style="color: palevioletred"
-                >C</span
-              >are
-            </h1>
+            <div class="content">
+              <h2>
+                <span style="color: palevioletred">B</span>aby<span
+                  style="color: palevioletred"
+                  >C</span
+                >are
+              </h2>
+            </div>
           </div>
           <div class="pages">
             <a href="index.html">Home</a>
@@ -151,6 +154,139 @@
           </div>
         </div>
       </div>
+      <!-- SECTION-4 -->
+      <div class="section-4">
+        <div class="section-4-header">
+          <h3>Our service</h3>
+          <h1>What We Offer</h1>
+          <p>
+            We provide trusted baby care solutions focused on health, comfort,
+            and growth.<br />
+            From newborn essentials to daily guidance, we support parents every
+            step of the way.
+          </p>
+        </div>
+        <!--SECTION-4 CARD -->
+        <div class="section-4-card">
+          <div class="card-4">
+            <div class="image-card">
+              <img src="image/babycardimg1.jpeg" alt="babyimg" />
+            </div>
+            <i class="fa-solid fa-baby"></i>
+            <h2 class="card-title-4">Trusted Care</h2>
+            <p class="card-text-4">
+              we guide parents through the beautiful yet challenging journey of
+              newborn care. From feeding and sleep to health and comfort, our
+              resources are built on trust, love, and expert-backed knowledge—so
+              you can focus on bonding with your little one.
+            </p>
+          </div>
+
+          <div class="card-4">
+            <div class="image-card">
+              <img src="image/babycare.jpg" alt="babyimg" />
+            </div>
+            <i class="fa-solid fa-baby-carriage"></i>
+            <h2 class="card-title-4">Well Certified</h2>
+            <p class="card-text-4">
+              Baby care guidance, products, or services are approved by
+              pediatricians and child care experts, ensuring safety and
+              reliability. It guarantees that every tip, routine, and
+              recommendation follows trusted, professional standards.
+            </p>
+          </div>
+
+          <div class="card-4">
+            <div class="image-card">
+              <img src="image/motherFeeding.jpg" alt="babyimg" />
+            </div>
+            <i class="fa-solid fa-person-dress"></i>
+            <h2 class="card-title-4">Professional Nanny</h2>
+            <p class="card-text-4">
+              A professional nanny is a trained caregiver who provides safe,
+              loving, and personalized care for newborns. They handle feeding,
+              bathing, sleep routines, and early development activities,
+              following expert-recommended practices.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- SECTION-5 -->
+      <div class="section-5">
+        <div class="section-5-left">
+          <h3 data-aos="fade-up">Why Choose Us?</h3>
+          <h1 data-aos="fade-up">Every Baby with Love & Safety</h1>
+          <p>
+            We believe every baby deserves gentle care, love, and complete
+            safety. Our experienced caregivers ensure a nurturing environment
+            that supports healthy growth, comfort, and happiness for your little
+            one.
+          </p>
+          <h4>
+            Starting From $10/hr <span class="section-5-span"></span> No Hidden
+            or Extra Charges
+          </h4>
+          <button data-aos="fade-up">Learn More</button>
+        </div>
+        <div class="section-5-right">
+          <img
+            data-aos="zoom-in"
+            src="image/tollder-sitting.jpg"
+            alt="tollder-sitting"
+          />
+        </div>
+      </div>
+      <!--    PRICING CARD        -->
+      <div class="pricing-section">
+        <div class="pricing-card-pink">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <div class="min-card">
+              <h3>Babysitting</h3>
+              <h2>$250 <span>/Month</span></h2>
+            </div>
+
+            <ul class="pricing-list">
+              <li><i class="fa-solid fa-check"></i> Trusted</li>
+              <li><i class="fa-solid fa-check"></i> 8 Hours / day</li>
+              <li><i class="fa-solid fa-check"></i> Best Services</li>
+              <li><i class="fa-solid fa-check"></i> Professional Nanny</li>
+              <li><i class="fa-solid fa-check"></i> Life Insurance</li>
+              <li><i class="fa-solid fa-check"></i> Individual Baby Advice</li>
+            </ul>
+
+            <button class="book-btn">Book Now</button>
+          </div>
+        </div>
+
+        <div class="pricing-card-blue">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <h3>Baby Care</h3>
+            <h2>$10 <span>/Day</span></h2>
+
+            <ul class="pricing-list">
+              <li><i class="fa-solid fa-check"></i> Trusted</li>
+              <li><i class="fa-solid fa-check"></i> 8 Hours / day</li>
+              <li><i class="fa-solid fa-check"></i> Best Services</li>
+              <li><i class="fa-solid fa-check"></i> Professional Nanny</li>
+              <li><i class="fa-solid fa-check"></i> Life Insurance</li>
+              <li><i class="fa-solid fa-check"></i> Individual Baby Advice</li>
+            </ul>
+
+            <button class="book-btn">Book Now</button>
+          </div>
+        </div>
+        <div class="pricing-card-content">
+          <h3>Our Pricing</h3>
+          <h1>Best Pricing Services</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button>More Pricing</button>
+        </div>
+      </div>
 
       <!-- ......END...... -->
     </div>
@@ -168,7 +304,7 @@
           let target = +counter.getAttribute("data-target");
           let count = 0;
           let increment = Math.ceil(target / 100); // step size
-          let speed = 30; // smaller = faster
+          let speed = 200; // smaller = faster
 
           function updateCounter() {
             if (count < target) {
