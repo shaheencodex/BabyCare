@@ -384,7 +384,7 @@ body {
 }
 .pricing-card-pink {
   width: 20%;
-  height: 50%;
+  height: 60%;
   padding: 50px;
   float: left;
   background-image: url("image/motherFeeding.jpg");
@@ -392,36 +392,91 @@ body {
   background-position: center;
 
   /* Transparent effect using overlay color */
-  background-color: rgb(240, 145, 176); /* black with 50% transparency */
+  background-color: rgb(245, 163, 190); /* black with 50% transparency */
   background-blend-mode: lighten; /* or try overlay / multiply */
   border-radius: 0 30px 30px 30px;
   position: relative;
 }
 .min-card {
   position: absolute;
-  background-color: rgb(148, 25, 46);
+  top: 0;
+  left: 30px;
+  background-color: #4f2555;
+  color: #fff;
   height: 100px;
   padding: 10px;
+  border-radius: 0 0 0 20px;
+  border: 3px solid palevioletred;
 }
 .pricing-list {
   position: absolute;
-  bottom: 40px;
+  top: 120px;
+  line-height: 2;
+  color: #4f2555;
+  font-weight: 600;
+}
+.book-btn {
+  position: absolute;
+  bottom: 50px;
+  padding: 15px;
+  border-radius: 30px;
+  border: 3px solid palevioletred;
+  color: #fff;
+  background-color: #4f2555;
+}
+.book-btn:hover {
+  background-color: #cff4df;
+  color: palevioletred;
+  border: 3px solid #4f2555;
 }
 .pricing-card-blue {
   width: 20%;
-  height: 50%;
+  height: 60%;
   padding: 50px;
   float: left;
-  background-image: url("image/babycare.jpg");
+  background-image: url("image/babyimg01.jpg");
   background-size: cover;
   background-position: center;
 
   /* Transparent effect using overlay color */
-  background-color: rgb(240, 145, 176); /* black with 50% transparency */
+  background-color: rgb(245, 163, 190); /* black with 50% transparency */
   background-blend-mode: lighten; /* or try overlay / multiply */
   color: black;
   border-radius: 0 30px 30px 30px;
+  position: relative;
 }
+
 .pricing-card-content {
   width: 30%;
+  line-height: 1.6;
+}
+.pricing-card-content h3 {
+  color: palevioletred;
+  font-size: 40px;
+}
+.pricing-card-content h1 {
+  color: #4f2555;
+  font-size: 40px;
+}
+.pricing-card-content p {
+  font-size: 20px;
+  color: palevioletred;
+  padding: 10px;
+}
+.pricing-card-content button {
+  padding: 20px;
+  border-radius: 30px;
+  border: 3px solid palevioletred;
+  color: #fff;
+  background-color: #4f2555;
+  font-size: 15px;
+  margin: 10px;
+}
+.pricing-card-content button:hover {
+  background-color: #cff4df;
+  color: palevioletred;
+  border: 3px solid #4f2555;
+}
+.pricing-list li {
+  list-style-type: none;
 }
