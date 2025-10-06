@@ -480,3 +480,91 @@ body {
 .pricing-list li {
   list-style-type: none;
 }
+
+/* OUR TEAM */
+.our-team {
+  height: 100vh;
+}
+.our-team-content {
+  text-align: center;
+  padding: 30px;
+  line-height: 1.6;
+}
+.our-team-content h3 {
+  color: palevioletred;
+  font-size: 30px;
+}
+.our-team-content h1 {
+  color: #4f2555;
+  font-size: 40px;
+}
+.our-team-content p {
+  color: palevioletred;
+  font-size: 20px;
+  font-weight: 500;
+}
+.our-team-cardsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.our-team-card {
+  position: relative;
+}
+.our-team-card img {
+  width: 350px;
+  height: 400px;
+  border: 2px solid palevioletred;
+  border-radius: 0 0 30px 0;
+}
+
+.our-team-position {
+  position: absolute;
+  top: 350px;
+
+  padding: 15px;
+  background-color: palevioletred;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  border-radius: 0 0 0 20px;
+}
+
+.social-icons {
+  position: absolute;
+  top: 150px; /* Position at the bottom of the card */
+  left: 80px;
+  padding: 10px;
+  display: none;
+  /* Initial state: Hidden below the card */
+  transform: translateY(100%);
+  transition: transform 0.3s ease; /* Smooth transition for the slide-up effect */
+}
+
+.social-icons a {
+  color: #f753a0; /* Pink color for icons */
+  font-size: 1.5em;
+  margin-right: 10px;
+  padding: 10px;
+}
+.card-icon {
+  background-color: #cff4df;
+  border-radius: 50%;
+}
+.card-icon:hover {
+  background-color: palevioletred;
+  color: #cff4df;
+}
+.our-team-card:hover .member-photo {
+  /* Desaturate and slightly lighten the image */
+  filter: sepia(100%) hue-rotate(150deg) saturate(300%) brightness(90%);
+  /* Or use opacity for a simpler fade: filter: opacity(0.5); */
+}
+
+/* 2. Social Icons Slide-Up Effect */
+.our-team-card:hover .social-icons {
+  transform: translateY(
+    0
+  ); /* Slide the icons back up to their final position */
+  display: block;
+}
