@@ -780,3 +780,96 @@ body {
   background-color: #fff;
   color: palevioletred;
 }
+
+/* ABOUT */
+.about-sec1 {
+  height: 80vh;
+}
+.sec1-content {
+  padding: 20px;
+  display: flex;
+}
+.sec1-left {
+  width: 40%;
+  padding: 20px;
+}
+.sec1-left img {
+  width: 550px;
+  height: 450px;
+  border-radius: 50%;
+  border: 2px solid palevioletred;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sec1-right {
+  width: 60%;
+  padding: 20px;
+  line-height: 1.2;
+}
+
+.sec1-right h4 {
+  color: palevioletred;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sec1-right h1 {
+  color: #4f2555;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.sec1-right p {
+  color: #4a4a4a;
+  font-size: 18px;
+  padding: 10px;
+}
+.signature img {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.signature-right {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+.signature-right h3 {
+  border-bottom: 2px solid black;
+  color: palevioletred;
+  font-size: 25px;
+  padding-bottom: 5px;
+  width: 60%;
+}
+
+.signature-right h5 {
+  color: #4a4a4a;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.sec1-right button {
+  width: 20%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: palevioletred;
+  color: #fff;
+  border-radius: 20px 0 20px 0;
+  border: none;
+  font-size: 20px;
+}
+.sec1-right button:hover {
+  background-color: #cff4df;
+  color: palevioletred;
+}
+
+.about-sec2 {
+  height: 100vh;
+}
+.sec2-content {
+  padding: 20px;
+  display: flex;
+}
+.sec2-left {
+  width: 50%;
+  padding: 20px;
+  line-height: 1.6;
+}
+.sec2-left;
